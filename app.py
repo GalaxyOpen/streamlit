@@ -112,8 +112,8 @@ for i in range(0, len(st.session_state.pokemons), 3):
                 delete_button = st.button(label="삭제", key=i+j, use_container_width=True)
                 if delete_button:
                     print("delete button clicked!") # button 을 한 번 누르면 맨 위의 page reload로 올라가서 다시 내려온다. 
-                    del st.session_state.pokemons[i+j]
-                    st.rerun() 
+                    del st.session_state.pokemons[i+j] # 이 코드만 있을 경우, 정상적으로 동작하지 않는다. 
+                    st.rerun() # 이 코드를 
 
 
 
