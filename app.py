@@ -9,9 +9,9 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-h1 {
-    color:red; 
-}            
+img {
+   max-height: 300px;         
+}    
 </style>
             """, unsafe_allow_html=True)
 
