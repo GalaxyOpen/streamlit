@@ -11,9 +11,17 @@ st.markdown("""
 <style>
 img {
    max-height: 300px;         
-}    
+}
+.st-emotion-cache-1clstc5.eqpbllx0 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}            
+
+  
 </style>
-            """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 
 st.title("streamlit 포켓몬 도감") # 제목 
