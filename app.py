@@ -7,6 +7,14 @@ st.set_page_config(
     page_icon="./images/monsterball.jpg" # 윈도우에 띄워진 크롬창의 아이콘 설정
 )
 
+st.markdown("""
+<style>
+h1 {
+    color:red; 
+}            
+</style>
+            """, unsafe_allow_html=True)
+
 
 st.title("streamlit 포켓몬 도감") # 제목 
 st.text("포켓몬을 하나씩 추가해서 도감을 채워보세요!") # 일반 텍스트 
